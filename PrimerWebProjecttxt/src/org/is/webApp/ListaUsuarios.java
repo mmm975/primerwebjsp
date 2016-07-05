@@ -11,10 +11,8 @@ public class ListaUsuarios {
 	
 	//private String rutaArchivo = "../workspace/PrimerWebProject/WebContent/datos/usuarios.txt";
 	// dev on Eclipse
-	// private String rutaArchivo = "PrimerWebProjecttxt/WebContent/datos/usuarios.txt";
+	private String rutaArchivo = "PrimerWebProject/WebContent/datos/usuarios.txt";
 
-	// deploy on Ubuntu
-	private String rutaArchivo = "$CATALINA_HOME/webapps/PrimerWebProject-0.0.1-joaquin/datos/usuarios.txt";
 	
 	/* TIP: Edit tomcat defaul directory:
 	*  and I edit the tomcat argument in Eclipse IDE. 
@@ -69,7 +67,7 @@ public class ListaUsuarios {
 				}
 
 				Usuario usuario= new Usuario(username, password, fecha);
-				// A�adir usuario a la lista
+				// Anadir usuario a la lista
 				usuariosLeidos.add(usuario);
 				i++;
 			}
@@ -105,7 +103,7 @@ public class ListaUsuarios {
 
 			out.close();
 		} catch (IOException e) {
-			System.out.println("Excepci�n al guardar archivo de usuarios");
+			System.out.println("Excepcion al guardar archivo de usuarios");
 		}
 
 	}

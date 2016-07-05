@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>PrimerWebProject</groupId>
   <artifactId>PrimerWebProject</artifactId>
-  <version>0.0.1-joaquin</version>
+  <version>0.0.1-miguel</version>
   <packaging>war</packaging>
    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
